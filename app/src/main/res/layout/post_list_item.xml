@@ -61,19 +61,28 @@
         android:layout_marginTop="10dp"
         android:gravity="center_vertical">
 
+
+
         <TextView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            src
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
             android:text="판매자"
             android:textSize="16sp"/>
 
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"/>
+
         <TextView
+            android:layout_marginLeft="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="사용자 이름"
             android:textColor="#000000"/>
 
 
+
+</LinearLayout>
 
 </LinearLayout>

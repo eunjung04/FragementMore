@@ -9,8 +9,8 @@ import com.example.fragementmore.R
 import kotlinx.android.synthetic.main.fragement.*
 
 class MainFragment : Fragment() {
-    @@ -17,4 +18,18 @@ class MainFragment : Fragment() {
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        class MainFragment : Fragment() {
+        return inflater.inflate(R.layout.fragement_main, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
