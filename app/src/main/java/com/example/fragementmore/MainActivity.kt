@@ -2,6 +2,8 @@ package com.example.fragementmore
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.fragementmore.adapter.MyFragePagerAdapter
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BasicActivity() {
 
@@ -12,5 +14,13 @@ class MainActivity : BasicActivity() {
         setupEvents()
     }
 
-    val
+    override fun setValues() {
+
+    }
+
+    override fun setupEvents() {
+
+        //myViewPager.adapter=MyFragePagerAdapter(supportFragmentManager)
+
+    }
 }

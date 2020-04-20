@@ -7,11 +7,41 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"/>
+
     <fragment
         android:tag="mainfrag"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        class="import com.example.fragementmore.BasicActivity"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="package com.example.fragementmore.fragement"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <Button
+            android:id="@+id/hideTxtBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="텍스트뷰 숨기기" />
+
+        <Button
+            android:id="@+id/showTxtBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="텍스트뷰 보여주기" />
+
+    </LinearLayout>
 
 </LinearLayout>
